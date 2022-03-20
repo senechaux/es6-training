@@ -101,7 +101,7 @@ describe('Array', () => {
     it('encuentra el objeto de Hulk en el array utilizando el .find()', () => {
       const result = ['borra este array']
 
-      expect(result).toEqual({ name: 'Hulk', age: 45 })
+      expect(result).toEqual({name: 'Hulk', age: 45})
     })
   })
 

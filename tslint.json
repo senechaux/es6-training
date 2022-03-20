@@ -24,6 +24,8 @@
     "no-floating-promises": false,
     "max-classes-per-file": false,
     "jsx-no-lambda": false,
-    "no-console": false
+    "no-console": false,
+    "no-empty": false,
+    "no-shadowed-variable": false
   }
 }

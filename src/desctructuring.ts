@@ -18,5 +18,5 @@ const names = someNames
 
 // usa desestructuración en la recepción de los parámetros
 const someFunction = (avenger: Avenger) => {
-    console.log(avenger.name, avenger.age)
+  console.log(avenger.name, avenger.age)
 }
