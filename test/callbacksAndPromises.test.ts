@@ -1,5 +1,5 @@
-import { asyncFunction, Callback } from '../src/callbackPromises/async.function'
-import { asyncPromise } from '../src/callbackPromises/async.promise'
+import { asyncFunction, Callback } from '../src/async.function'
+import { asyncPromise } from '../src/async.promise'
 
 describe('callbacksAndPromises', () => {
 

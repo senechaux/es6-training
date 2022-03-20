@@ -1,4 +1,4 @@
-import { executor } from '../src/callbackPromises/classes.executor'
+import { executor } from '../src/classes.executor'
 
 describe('arrows', () => {
   describe('execution in its context', () => {
