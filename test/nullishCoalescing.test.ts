@@ -1,4 +1,4 @@
-describe('null coallescence', () => {
+describe('nullish coalescing', () => {
   it('usa el null coallescence para devolver un valor por defecto si el parámetro es null', () => {
     const hello = (greeting?: string) => greeting
 

@@ -1,6 +1,6 @@
 const optionalCallback = (callback?: () => void) => callback()
 
-describe('Optional channing', () => {
+describe('optional channing', () => {
   it('usa el optional channing para que no se rompa el programa', () => {
     optionalCallback()
   })

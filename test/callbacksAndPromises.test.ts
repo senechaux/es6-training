@@ -1,7 +1,7 @@
 import { asyncFunction, Callback } from '../src/async.function'
 import { asyncPromise } from '../src/async.promise'
 
-describe('callbacksAndPromises', () => {
+describe('callbacks  and promises', () => {
 
   describe('callbacks', () => {
     const callback: Callback = (error?: string, result?: string) => {

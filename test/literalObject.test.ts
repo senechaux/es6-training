@@ -1,4 +1,4 @@
-describe('literalObject', () => {
+describe('literal object', () => {
   it('Define un objeto literal que tenga las propiedades nombre, apellido y edad', () => {
 
   })
