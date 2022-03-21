@@ -103,7 +103,7 @@ describe('arrows', () => {
         constructor(private name: string) {
         }
 
-        tellName = () => {
+        tellName() {
           console.log(this.name)
         }
       }
@@ -117,6 +117,23 @@ describe('arrows', () => {
     it('arrow function', () => {
       class Dog {
         constructor(private name: string) {
+        }
+
+        tellName = () => {
+          console.log(this.name)
+        }
+      }
+
+      const dog = new Dog('Pluto')
+
+      const sureMen = {name: 'Bethoven', muahaha: dog.tellName}
+      sureMen.muahaha()
+    })
+
+    it('regular binded function', () => {
+      class Dog {
+        constructor(private name: string) {
+          this.tellName = this.tellName.bind(this)
         }
 
         tellName() {

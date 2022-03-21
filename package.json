@@ -24,7 +24,6 @@
   },
   "scripts": {
     "lint": "tslint -p tsconfig.json -c tslint.json",
-    "pretest": "npm run lint",
     "test": "jest -c jest-config.json",
     "test:watch": "jest -c jest-config.json --watch"
   }
